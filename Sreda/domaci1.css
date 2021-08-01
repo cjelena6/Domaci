@@ -1,0 +1,59 @@
+nav {
+    text-align: center;
+}
+
+span {
+    color:seagreen;
+}
+ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    width: 50px;
+}
+
+.lside {
+    box-sizing: content-box;
+    width: 20%;
+    float: left;
+}
+
+.rside {
+    box-sizing: content-box;
+    width: 70%;
+    float: left;
+    padding: 5px;
+}
+
+.slika1 {
+    width: 290px;
+    height: 420px;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+
+.slika2 {
+    width: 900px;
+    height: 500px;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+form {
+    box-sizing: border-box;
+    border:1px solid black;
+    padding: 3px;
+}
+
+label {
+    color:seagreen;
+}
+
+label[for="male"], label[for="female"], label[for="html"],label[for="css"], label[for="js"] {
+color:black;
+}
